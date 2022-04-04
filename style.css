@@ -1,0 +1,20 @@
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    ;
+}
+
+.players-data img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.players-data {
+    display: flex;
+    align-items: center;
+}
+
+.players-data h6 {
+    font-size: 20px;
+}
